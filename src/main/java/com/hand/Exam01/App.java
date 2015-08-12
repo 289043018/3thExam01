@@ -61,6 +61,7 @@ public class App
 		   e.printStackTrace();
 		  }finally{
 		   try {//从由小到大的顺序关闭资源
+			   rs2.close();
 		    rs.close();
 		   } catch (Exception e2) {
 		   }
